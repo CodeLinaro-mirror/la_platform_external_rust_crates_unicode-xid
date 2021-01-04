@@ -1,13 +1,13 @@
 name: "unicode-xid"
-description: "Determine if a char is a valid identifier for a parser and/or lexer according to Unicode Standard Annex #31 rules."
+description: "Determine whether characters have the XID_Start or XID_Continue properties according to Unicode Standard Annex #31."
 third_party {
   url {
     type: HOMEPAGE
     value: "https://crates.io/crates/unicode-xid"
   }
   url {
-    type: GIT
-    value: "https://github.com/unicode-rs/unicode-xid"
+    type: ARCHIVE
+    value: "https://static.crates.io/crates/unicode-xid/unicode-xid-0.2.1.crate"
   }
   version: "0.2.1"
   license_type: NOTICE
